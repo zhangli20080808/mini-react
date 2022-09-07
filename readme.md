@@ -14,3 +14,25 @@ cd zl-mini-react
 yarn
 yarn dev
 ```
+### createRoot 
+```js
+// 在特定的dom节点上，创建一个root对象
+const root = createRoot(document.getElementById('root'));
+// 使用 root 的render方法来渲染对应的组件或者卸载组件
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+// root.unmount()
+// ReactDOM.unmountComponentAtNode(root) 之前调用方法会卸载该容器中的渲染
+
+// vue3
+const app = createApp()
+app.mount('#app')
+app.unmount('#app')
+```
+### 自动批处理
+```js
+
+```
