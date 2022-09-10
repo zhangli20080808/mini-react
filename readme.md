@@ -9,7 +9,7 @@ Concurrent - 并发性，并不是一个新的特性，而是 react 内部衍生
 ### 新的特性
 
 1. 新的渲染 - Api createRoot
-2. 自动批处理 - Automatic Batching
+2. 自动批处理 - Automatic Batching，特殊的优化机制
 3. 过渡 Api - Transitions
 4. Suspense Api
 
@@ -44,8 +44,28 @@ app.unmount('#app');
 
 ### 自动批处理
 
-```js
+其实很好理解，在 react 中可以减少 re-render 的次数
 
+```js
+const [count, setCount] = useState(0);
+const [show, setShow] = useState(true);
+console.log('update', show, count);
+const batchUpdate = () => {
+  setCount(count + 1);
+  setShow(!show);
+};
+useEffect(() => {
+  setTimeout(() => {
+    batchUpdate();
+  }, 2000);
+}, []);
+// 在react 18中，自動批處理會合併更新，只會render一次
+// update true 0
+// update false 1 
+// 在17中，會render兩次
+// update true 0
+// update false 0
+// update fasle 1
 ```
 
 ### 虚拟 dom 概念复习
