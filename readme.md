@@ -16,7 +16,8 @@ Concurrent - 并发性，并不是一个新的特性，而是 react 内部衍生
 ### start
 
 ```js
-yarn create vite zl-mini-react --template react
+// http://www.vitejs.net/guide/#scaffolding-your-first-vite-project
+yarn create vite zl-mini-react --template react-ts
 cd zl-mini-react
 yarn
 yarn dev
