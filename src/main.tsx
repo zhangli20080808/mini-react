@@ -1,6 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
+import 'rainbowdesign/dist/index.css';
 import './index.css';
 
 // 在特定的dom节点上，创建一个root对象
