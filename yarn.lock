@@ -600,6 +600,19 @@
   dependencies:
     "ms" "2.1.2"
 
+"design-component@file:../../ts-with-react":
+  "resolved" "file:../../ts-with-react"
+  "version" "0.1.0"
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "^1.2.26"
+    "@fortawesome/free-solid-svg-icons" "^5.15.4"
+    "@fortawesome/react-fontawesome" "^0.1.8"
+    "async-validator" "^4.1.1"
+    "axios" "^0.19.1"
+    "classnames" "^2.2.6"
+    "lodash-es" "^4.17.21"
+    "react-transition-group" "^4.3.0"
+
 "electron-to-chromium@^1.4.251":
   "integrity" "sha512-k4o4cFrWPv4SoJGGAydd07GmlRVzmeDIJ6MaEChTUjk4Dmomn189tCicSzil2oyvbPoGgg2suwPDNWq4gWRhoQ=="
   "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.251.tgz"
@@ -868,19 +881,6 @@
   "resolved" "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
   "version" "2.1.1"
 
-"rainbowdesign@0.1.0":
-  "resolved" "file:../../ts-with-react"
-  "version" "0.1.0"
-  dependencies:
-    "@fortawesome/fontawesome-svg-core" "^1.2.26"
-    "@fortawesome/free-solid-svg-icons" "^6.1.1"
-    "@fortawesome/react-fontawesome" "^0.1.8"
-    "async-validator" "^4.1.1"
-    "axios" "^0.19.1"
-    "classnames" "^2.2.6"
-    "lodash-es" "^4.17.21"
-    "react-transition-group" "^4.3.0"
-
 "randombytes@^2.1.0":
   "integrity" "sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ=="
   "resolved" "https://registry.npmjs.org/randombytes/-/randombytes-2.1.0.tgz"
@@ -1029,19 +1029,6 @@
   "integrity" "sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog=="
   "resolved" "https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-2.0.0.tgz"
   "version" "2.0.0"
-
-"ts-with-react@file:../../ts-with-react":
-  "resolved" "file:../../ts-with-react"
-  "version" "0.1.0"
-  dependencies:
-    "@fortawesome/fontawesome-svg-core" "^1.2.26"
-    "@fortawesome/free-solid-svg-icons" "^6.1.1"
-    "@fortawesome/react-fontawesome" "^0.1.8"
-    "async-validator" "^4.1.1"
-    "axios" "^0.19.1"
-    "classnames" "^2.2.6"
-    "lodash-es" "^4.17.21"
-    "react-transition-group" "^4.3.0"
 
 "typescript@^4.6.4":
   "integrity" "sha512-goMHfm00nWPa8UvR/CPSvykqf6dVV8x/dp0c5mFTMTIu0u0FlGWRioyy7Nn0PGAdHxpJZnuO/ut+PpQ8UiHAig=="
