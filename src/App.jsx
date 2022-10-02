@@ -11,7 +11,7 @@ function App() {
   };
   useEffect(() => {
     setTimeout(() => {
-      batchUpdate()
+      batchUpdate();
     }, 2000);
   }, []);
   return (
